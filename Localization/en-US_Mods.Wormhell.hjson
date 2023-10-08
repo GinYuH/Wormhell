@@ -1,0 +1,43 @@
+Configs: {
+	WormConfig: {
+		DaM: {
+			Tooltip: Makes worm segments not deal damage
+			Label: Harmless Segments
+		}
+
+		Hard: {
+			Tooltip: Makes worm segments invincible
+			Label: Invincible Segments
+		}
+
+		SDef: {
+			Tooltip: The amount of increased defense that segments get
+			Label: Segment Defense
+		}
+
+		Segments: {
+			Tooltip: The amount of segments spawned per NPC. Do note that the NPC limit is 200
+			Label: Segment Amount
+		}
+
+		ConfigInvincible: {
+			Tooltip: Allows Invincible NPCs to become worms
+			Label: Allow Invincible NPCs
+		}
+
+		ConfigCritter: {
+			Tooltip: Allows Critters to become worms
+			Label: Allow Critters
+		}
+
+		ConfigTown: {
+			Tooltip: Allows Town NPCs to become worms
+			Label: Allow Town NPCs
+		}
+
+		DisplayName: Worm Config
+	}
+}
+
+Config.Mainname: Config Town Header
+NPCs.WormBody.DisplayName: Worm Body
