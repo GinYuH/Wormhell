@@ -1,0 +1,11 @@
+Makes every enemy in the game into a "worm" type enemy. 
+
+Config support for:
+- Allowing Town NPCs, Critters, and/or invincible NPCs to become worms
+- Increasing worm segment defense (piercing destroys them)
+- Increasing/Decreasing the amount of segments each NPC grows (default 10). Set this to 0 if the segments are causing issues for a specific boss.
+- Making the segments invincible and/or deal no damage
+
+Segments glitch a bit when the NPC's sprite uses multiple columns, but it doesn't affect the hitbox I think.
+
+...and yes, existing worm enemies also "become" worms...
